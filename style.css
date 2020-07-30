@@ -7,6 +7,8 @@
   
   body {
     background-color: #000;
+    display: flex;
+    flex-wrap: wrap;
   }
   
   .clock {
@@ -15,12 +17,11 @@
     background-color: #dddddd;
     border-radius: 100%;
     border: 3px solid #aaaaaa;
-    margin: auto;
     position: absolute;
-    top: 0;
-    left: 0;
+    right: 50px;
     bottom: 0;
-    right: 0;
+    top: 0;
+    margin: auto;
   }
 
   .hour{
@@ -173,14 +174,14 @@
     margin: 80px 0;
     color: rgba(250, 99, 99, 0.788);
     text-shadow: 0 0 10px rgb(228, 61, 61), 0 0 20px rgb(252, 35, 35), 0 0 30px #e60f00, 0 0 40px #e62300, 0 0 50px #e63600, 0 0 60px #e60000, 0 0 70px #e63600;
-    font-size: 2em;
+    font-size: 3em;
     font-family: 'Orbitron', sans-serif;
   }
 
   .digital{
     box-shadow: 0 0 10px rgb(228, 61, 61), 0 0 20px rgb(252, 35, 35), 0 0 30px #e60f00;
     height: 200px;
-    width: 250px;
+    width: 400px;
     border-radius: 15px;
     background-color: #3f3c3cb7;
     border: 3px solid #ec1d1db7;

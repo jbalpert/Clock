@@ -25,7 +25,7 @@ function moveHands() {
         if(hour < 10){
             hour = "0" + hour;
         }
-        digitalTime.innerHTML = hour + " : " + min + " . " + sec;
+        digitalTime.innerHTML = hour + " : " + min + " : " + sec;
       setTimeout(moveHands, 1000);
     }
   }
