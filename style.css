@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #000;
+  }
+  
+  .clock {
+    height: 500px;
+    width: 500px;
+    background-color: #dddddd;
+    border-radius: 100%;
+    border: 3px solid #aaaaaa;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+
+  .hour{
+    position: absolute;
+    width: 3px;
+    height: 15px;
+    background: #111111;
+    left: 0;
+    top: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+
+  .one {
+    margin: auto;
+    left: 422px;
+    bottom: 240px;
+    transform: rotate(60deg);
+  }
+
+  .two {
+    margin: auto;
+    left: 240px;
+    bottom: 422px;
+    transform: rotate(30deg);
+  }
+  
+  .three {
+    right: 6px;
+    left: initial;
+    bottom: 0;
+    margin: auto 0;
+    transform: rotate(90deg);
+  }
+
+  .four {
+    margin: auto;
+    left: 422px;
+    bottom: -240px;
+    transform: rotate(-60deg);
+  }
+
+  .five {
+    margin: auto;
+    left: 240px;
+    bottom: -422px;
+    transform: rotate(-30deg);
+  }
+  
+  .six {
+    top: initial;
+    bottom: 0;
+    margin: 0 auto;
+  }
+  
+  .seven {
+    margin: auto;
+    left: -422px;
+    bottom: -240px;
+    transform: rotate(60deg);
+  }
+
+  .eight {
+    margin: auto;
+    left: -240px;
+    bottom: -422px;
+    transform: rotate(30deg);
+  }
+
+  .nine {
+    position: absolute;
+    width: 15px;
+    height: 3px;
+    background: #111111;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto 0;
+  }
+
+  
+  .ten {
+    margin: auto;
+    left: -422px;
+    bottom: 240px;
+    transform: rotate(-60deg);
+  }
+
+  .eleven {
+    margin: auto;
+    left: -240px;
+    bottom: 422px;
+    transform: rotate(-30deg);
+  }
+
+  .center {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    background: #000;
+    border-radius: 100%;
+  }
+  
+  #seconds {
+    position: absolute;
+    height: 160px;
+    width: 2px;
+    left: 0;
+    right: 0;
+    bottom: 160px;
+    top: 0px;
+    margin: auto;
+    background: #000;
+    -webkit-transform-origin: bottom;
+    background: #ff4136;
+  }
+  
+  #minutes {
+    position: absolute;
+    height: 200px;
+    width: 2px;
+    left: 0;
+    right: 0;
+    bottom: 200px;
+    top: 0px;
+    margin: auto;
+    background: #000;
+    -webkit-transform-origin: bottom;
+  }
+  
+  #hours {
+    position: absolute;
+    height: 80px;
+    width: 6px;
+    left: 0;
+    right: 0;
+    bottom: 80px;
+    top: 0px;
+    margin: auto;
+    background: #000;
+    -webkit-transform-origin: bottom;
+  }
+
+  #digitalTime{
+    margin: 80px 0;
+    color: rgba(250, 99, 99, 0.788);
+    text-shadow: 0 0 10px rgb(228, 61, 61), 0 0 20px rgb(252, 35, 35), 0 0 30px #e60f00, 0 0 40px #e62300, 0 0 50px #e63600, 0 0 60px #e60000, 0 0 70px #e63600;
+    font-size: 2em;
+    font-family: 'Orbitron', sans-serif;
+  }
+
+  .digital{
+    box-shadow: 0 0 10px rgb(228, 61, 61), 0 0 20px rgb(252, 35, 35), 0 0 30px #e60f00;
+    height: 200px;
+    width: 250px;
+    border-radius: 15px;
+    background-color: #3f3c3cb7;
+    border: 3px solid #ec1d1db7;
+    left: 50px;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    position: absolute;
+    text-align: center;
+  }
